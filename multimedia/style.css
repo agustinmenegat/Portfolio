@@ -1,0 +1,258 @@
+body {
+  background-color: #1a1a1a;
+  font-family: "Josefin Sans", serif;
+}
+body #particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+body .portfolio-title {
+  position: sticky;
+  top: 7%;
+  padding-left: 4%;
+  text-align: center;
+}
+@media (max-width: 1536px) {
+  body .portfolio-title {
+    position: sticky;
+    top: 6%;
+    padding-left: 1%;
+    text-align: center;
+  }
+}
+body .portfolio-title h1 {
+  color: #d9c6e4;
+  font-size: medium;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+body .menu-sticky {
+  color: #d9c6e4;
+  text-align: center;
+  position: sticky;
+  top: 70%;
+  padding-right: 4%;
+}
+@media (max-width: 1536px) {
+  body .menu-sticky {
+    top: 75%;
+    margin-left: 100px;
+  }
+}
+body .menu-sticky h4 a {
+  list-style: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+  font-size: large;
+  text-decoration: none;
+  color: #d9c6e4;
+}
+@media only screen and (max-width: 1536px) {
+  body .menu-sticky h4 a {
+    font-size: large;
+    line-height: 0;
+  }
+}
+body .section-medio .main-title {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+body .section-medio .main-title h2 {
+  font-size: 8em;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #d9c6e4;
+}
+@media only screen and (max-width: 1536px) {
+  body .section-medio .main-title h2 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  body .section-medio .main-title h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+body .section-medio .main-title h3 {
+  letter-spacing: 4px;
+  font-size: 6em;
+  color: #503268;
+}
+@media only screen and (max-width: 1536px) {
+  body .section-medio .main-title h3 {
+    font-size: 4.2rem;
+  }
+}
+@media (max-width: 800px) {
+  body .section-medio .main-title h3 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+body .section-medio .flecha-abajo {
+  text-align: center;
+}
+@media only screen and (max-width: 1536px) {
+  body .section-medio .flecha-abajo {
+    position: absolute;
+    bottom: 1%;
+    right: 48%;
+  }
+}
+body .section-medio .flecha-abajo .flecha {
+  padding-left: 4em;
+}
+body .section-medio .flecha-abajo .flecha img {
+  max-width: 3em;
+  color: #503268;
+}
+body .section-about div .aboutTitle {
+  color: #d9c6e4;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Secular One", sans-serif;
+}
+body .section-about div p {
+  color: #d9c6e4;
+  line-height: 3.5rem;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 1536px) {
+  body .section-about div p {
+    font-size: 1.2rem;
+  }
+}
+body .section-about div .paragraph1 {
+  text-align: start;
+}
+body .section-about div .paragraph3 {
+  text-align: end;
+}
+body .section-about .mi-foto-container .mi-foto {
+  max-width: 500px;
+  max-height: 500px;
+  position: relative;
+  left: 20%;
+}
+@media only screen and (max-width: 1366px) {
+  body .section-about .mi-foto-container .mi-foto {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+body .section-services {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+}
+@media only screen and (max-width: 1536px) {
+  body .section-services {
+    margin-top: 2rem;
+  }
+}
+body .section-services .servicesTitle {
+  font-size: 1.2rem;
+  margin-bottom: 6rem;
+  color: #d9c6e4;
+  /* font-family: 'Abril Fatface', cursive; */
+  /* font-family: 'Righteous', cursive; */
+  font-family: "Secular One", sans-serif;
+}
+@media only screen and (max-width: 1536px) {
+  body .section-services .servicesTitle {
+    margin-bottom: 1.5rem;
+  }
+}
+body .section-services .servicesP {
+  color: #d9c6e4;
+  font-size: 6rem;
+  line-height: 110px;
+}
+body .section-services .servicesP b {
+  color: #503268;
+}
+@media only screen and (max-width: 1536px) {
+  body .section-services .servicesP {
+    font-size: 5.9rem;
+    line-height: 125px;
+  }
+}
+body .seccionStudies {
+  margin-top: 260px;
+}
+body .seccionStudies .myStudiesTitle {
+  color: #d9c6e4;
+  font-size: 1.2rem;
+  margin-bottom: 6rem;
+  /* font-family: 'Abril Fatface', cursive; */
+  /* font-family: 'Righteous', cursive; */
+  font-family: "Secular One", sans-serif;
+}
+body .seccionStudies .studiesSub {
+  text-align: center;
+  font-size: 17px;
+}
+body .seccionStudies .studies {
+  font-size: xxx-large;
+  padding: 20px 0;
+  cursor: pointer;
+}
+body .seccionStudies .miMail {
+  font-size: 70px;
+  margin-bottom: 10rem;
+  color: #d9c6e4;
+}
+body .seccionStudies .rrssContainer {
+  margin: auto;
+}
+body .seccionStudies .rrssContainer .iconS {
+  font-size: 5vh;
+  margin: 10vh 10vh;
+  transition: all 2s;
+}
+body .seccionStudies .rrssContainer .iconS:hover {
+  transform: scale(2);
+}
+body .seccionStudies .rrssContainer .iconS a {
+  color: #d9c6e4;
+}
+body .seccionStudies .rrssContainer .iconS a:hover {
+  color: #503268;
+}
+body .seccionStudies .carouselContainer {
+  margin: auto;
+  max-width: 100vh;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,252 @@
+$color1: #1a1a1a;
+$color2: #150050;
+$color3: #503268;
+$color4: #d9c6e4;
+
+body {
+    #particles-js{
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    background-color: $color1;
+    font-family: 'Josefin Sans', serif;
+    .portfolio-title {
+        position: sticky;
+        top: 7%;
+        padding-left: 4%;
+        text-align: center;
+        @media (max-width: 1536px){
+            position: sticky;
+            top: 6%;
+            padding-left: 1%;
+            text-align: center;
+
+        }
+        h1 {
+            color: $color4;
+            font-size: medium;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+    }
+    .menu-sticky {
+        color: $color4;
+        text-align: center;
+        position: sticky;
+        top: 70%;
+        padding-right: 4%;
+        @media (max-width: 1536px){
+            top: 75%;
+            margin-left: 100px;
+        }
+        h4 {
+            a {
+            list-style: none;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 2.5rem;
+            font-size: large;
+            text-decoration: none;
+            color: $color4;
+            @media only screen and (max-width:1536px) {
+                font-size: large;
+                line-height: 0;
+            }
+            }
+        }
+    }
+
+    .section-medio {
+        .main-title {
+            text-align: center;
+            margin-top: 5rem;
+            margin-bottom: 10rem;
+        
+            h2 {
+                font-size: 8em;
+                font-weight: bold;
+                letter-spacing: 5px;
+                color: $color4;
+                @media only screen and (max-width:1536px) {                  
+                    font-size: 6rem;
+                    margin-bottom: 2rem;
+                }
+                @media (max-width: 800px){
+                    font-size: 50px;
+                    text-align: center;
+                }
+            }
+            h3 {
+                letter-spacing: 4px;
+                font-size: 6em;
+                color: $color3; 
+                @media only screen and (max-width:1536px) {                  
+                    font-size: 4.2rem;
+                }
+                @media (max-width: 800px){
+                    font-size: 50px;
+                    text-align: center;
+                }
+                }
+        }
+
+        .flecha-abajo {
+            text-align: center;
+            @media only screen and (max-width:1536px) {
+                position: absolute;
+                bottom: 1%;
+                right: 48%;
+                
+            }
+            .flecha {
+                padding-left: 4em;
+                img {
+                max-width: 3em;
+                color: $color3;
+                }
+            }
+        }    
+    }
+    .section-about {
+        div {
+            .aboutTitle {
+                color: $color4;
+                font-size: 1.2rem;
+                font-weight: bold;
+                font-family: 'Secular One', sans-serif;
+            }
+            p {
+                color: $color4;
+                line-height: 3.5rem;
+                font-size: 1.5rem;
+                @media only screen and (max-width:1536px) {
+                font-size: 1.2rem;
+                }
+            }
+            .paragraph1 {
+                text-align: start;
+            }
+
+            .paragraph3 {
+                text-align: end;
+            }
+        }
+        .mi-foto-container {   
+            .mi-foto {
+                max-width: 500px;
+                max-height: 500px;
+                position: relative;
+                left: 20%;
+                @media only screen and (max-width:1366px) {
+                max-width: 350px;
+                max-height: 350px;
+                }
+            }
+        }
+    }
+    .section-services{
+        margin-top: 8rem;
+        margin-bottom: 6rem;
+        @media only screen and (max-width:1536px) {
+            margin-top: 2rem;
+        }
+        .servicesTitle{
+            font-size: 1.2rem;
+            margin-bottom: 6rem;
+            color: $color4;
+            /* font-family: 'Abril Fatface', cursive; */
+            /* font-family: 'Righteous', cursive; */
+            font-family: 'Secular One', sans-serif;
+            @media only screen and (max-width:1536px) {
+                margin-bottom: 1.5rem;
+            }
+        }
+        .servicesP{
+            color: $color4;
+            font-size: 6rem;
+            line-height: 110px;
+            b{
+                color: $color3;
+            }
+            @media only screen and (max-width:1536px) {
+                font-size: 5.9rem;
+                line-height: 125px;
+            }
+        }
+    }
+    .seccionStudies{
+        margin-top: 260px;
+        .myStudiesTitle{
+            color: $color4;
+            font-size: 1.2rem;
+            margin-bottom: 6rem;
+            /* font-family: 'Abril Fatface', cursive; */
+            /* font-family: 'Righteous', cursive; */
+            font-family: 'Secular One', sans-serif;
+        }
+        .studiesSub{
+            text-align: center;
+            font-size: 17px;
+        }
+        .studies{
+            font-size: xxx-large;
+            padding: 20px 0;
+            cursor: pointer;
+        }
+        .miMail{
+            font-size: 70px;
+            margin-bottom: 10rem;
+            color: $color4;
+        }
+        .rrssContainer{
+            margin: auto;
+            .iconS{
+                font-size: 5vh;
+                margin: 10vh 10vh;
+                transition: all 2s;
+            }
+            .iconS:hover{
+                transform: scale(2);
+            }
+            .iconS a{
+                color: $color4;
+            }
+            .iconS a:hover{
+                color: $color3;
+            }
+        }
+        .carouselContainer{
+            margin: auto;
+            max-width: 100vh;
+        }
+        
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position:absolute;
+    display: block;
+    top: 0;     
+    left: 0;      
+    z-index: 0;
+}
+
+.row {
+    margin: 0;
+}
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.scss.map */
