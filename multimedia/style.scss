@@ -1,7 +1,8 @@
 $color1: #1a1a1a;
 $color2: #150050;
-$color3: #503268;
-$color4: #d9c6e4;
+$color3: #d5dbd2;
+$color4: #f8f8f8;
+$colorTitulos: #a4ff6f;
 
 body {
     #particles-js{
@@ -50,12 +51,16 @@ body {
             font-size: large;
             text-decoration: none;
             color: $color4;
+            &:hover{
+                color: $colorTitulos;
+            }
             @media only screen and (max-width:1536px) {
                 font-size: large;
                 line-height: 0;
             }
             }
         }
+        
     }
 
     .section-medio {
@@ -94,25 +99,25 @@ body {
 
         .flecha-abajo {
             text-align: center;
+            animation: bounce1 1s alternate infinite ease-in;
             @media only screen and (max-width:1536px) {
                 position: absolute;
                 bottom: 1%;
                 right: 48%;
-                
             }
             .flecha {
-                padding-left: 4em;
-                img {
-                max-width: 3em;
-                color: $color3;
-                }
+                color: $color4;
+                font-size: 4em;
+            }
+            .flecha:hover{
+                color: $colorTitulos;
             }
         }    
     }
     .section-about {
         div {
             .aboutTitle {
-                color: $color4;
+                color: $colorTitulos;
                 font-size: 1.2rem;
                 font-weight: bold;
                 font-family: 'Secular One', sans-serif;
@@ -155,9 +160,7 @@ body {
         .servicesTitle{
             font-size: 1.2rem;
             margin-bottom: 6rem;
-            color: $color4;
-            /* font-family: 'Abril Fatface', cursive; */
-            /* font-family: 'Righteous', cursive; */
+            color: $colorTitulos;
             font-family: 'Secular One', sans-serif;
             @media only screen and (max-width:1536px) {
                 margin-bottom: 1.5rem;
@@ -179,7 +182,7 @@ body {
     .seccionStudies{
         margin-top: 260px;
         .myStudiesTitle{
-            color: $color4;
+            color: $colorTitulos;
             font-size: 1.2rem;
             margin-bottom: 6rem;
             /* font-family: 'Abril Fatface', cursive; */
@@ -196,7 +199,8 @@ body {
             cursor: pointer;
         }
         .miMail{
-            font-size: 70px;
+            font-size: 80px;
+            font-weight: bolder;
             margin-bottom: 10rem;
             color: $color4;
         }
@@ -205,16 +209,16 @@ body {
             .iconS{
                 font-size: 5vh;
                 margin: 10vh 10vh;
-                transition: all 2s;
+                transition: all 1s;
             }
             .iconS:hover{
-                transform: scale(2);
+                transform: scale(1.5);
             }
             .iconS a{
                 color: $color4;
             }
             .iconS a:hover{
-                color: $color3;
+                color: $colorTitulos;
             }
         }
         .carouselContainer{
@@ -240,6 +244,15 @@ html, body {
 
 .row {
     margin: 0;
+}
+
+@keyframes bounce1{
+    0%{
+        transform: translateY(-40%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
 }
 /*# sourceMappingURL=style.scss.map */
 /*# sourceMappingURL=style.scss.map */

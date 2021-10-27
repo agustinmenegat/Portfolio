@@ -23,13 +23,13 @@ body .portfolio-title {
   }
 }
 body .portfolio-title h1 {
-  color: #d9c6e4;
+  color: #f8f8f8;
   font-size: medium;
   font-weight: bold;
   letter-spacing: 1px;
 }
 body .menu-sticky {
-  color: #d9c6e4;
+  color: #f8f8f8;
   text-align: center;
   position: sticky;
   top: 70%;
@@ -48,7 +48,10 @@ body .menu-sticky h4 a {
   line-height: 2.5rem;
   font-size: large;
   text-decoration: none;
-  color: #d9c6e4;
+  color: #f8f8f8;
+}
+body .menu-sticky h4 a:hover {
+  color: #a4ff6f;
 }
 @media only screen and (max-width: 1536px) {
   body .menu-sticky h4 a {
@@ -65,7 +68,7 @@ body .section-medio .main-title h2 {
   font-size: 8em;
   font-weight: bold;
   letter-spacing: 5px;
-  color: #d9c6e4;
+  color: #f8f8f8;
 }
 @media only screen and (max-width: 1536px) {
   body .section-medio .main-title h2 {
@@ -82,7 +85,7 @@ body .section-medio .main-title h2 {
 body .section-medio .main-title h3 {
   letter-spacing: 4px;
   font-size: 6em;
-  color: #503268;
+  color: #d5dbd2;
 }
 @media only screen and (max-width: 1536px) {
   body .section-medio .main-title h3 {
@@ -97,6 +100,7 @@ body .section-medio .main-title h3 {
 }
 body .section-medio .flecha-abajo {
   text-align: center;
+  animation: bounce1 1s alternate infinite ease-in;
 }
 @media only screen and (max-width: 1536px) {
   body .section-medio .flecha-abajo {
@@ -106,20 +110,20 @@ body .section-medio .flecha-abajo {
   }
 }
 body .section-medio .flecha-abajo .flecha {
-  padding-left: 4em;
+  color: #f8f8f8;
+  font-size: 4em;
 }
-body .section-medio .flecha-abajo .flecha img {
-  max-width: 3em;
-  color: #503268;
+body .section-medio .flecha-abajo .flecha:hover {
+  color: #a4ff6f;
 }
 body .section-about div .aboutTitle {
-  color: #d9c6e4;
+  color: #a4ff6f;
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Secular One", sans-serif;
 }
 body .section-about div p {
-  color: #d9c6e4;
+  color: #f8f8f8;
   line-height: 3.5rem;
   font-size: 1.5rem;
 }
@@ -158,9 +162,7 @@ body .section-services {
 body .section-services .servicesTitle {
   font-size: 1.2rem;
   margin-bottom: 6rem;
-  color: #d9c6e4;
-  /* font-family: 'Abril Fatface', cursive; */
-  /* font-family: 'Righteous', cursive; */
+  color: #a4ff6f;
   font-family: "Secular One", sans-serif;
 }
 @media only screen and (max-width: 1536px) {
@@ -169,12 +171,12 @@ body .section-services .servicesTitle {
   }
 }
 body .section-services .servicesP {
-  color: #d9c6e4;
+  color: #f8f8f8;
   font-size: 6rem;
   line-height: 110px;
 }
 body .section-services .servicesP b {
-  color: #503268;
+  color: #d5dbd2;
 }
 @media only screen and (max-width: 1536px) {
   body .section-services .servicesP {
@@ -186,7 +188,7 @@ body .seccionStudies {
   margin-top: 260px;
 }
 body .seccionStudies .myStudiesTitle {
-  color: #d9c6e4;
+  color: #a4ff6f;
   font-size: 1.2rem;
   margin-bottom: 6rem;
   /* font-family: 'Abril Fatface', cursive; */
@@ -203,9 +205,10 @@ body .seccionStudies .studies {
   cursor: pointer;
 }
 body .seccionStudies .miMail {
-  font-size: 70px;
+  font-size: 80px;
+  font-weight: bolder;
   margin-bottom: 10rem;
-  color: #d9c6e4;
+  color: #f8f8f8;
 }
 body .seccionStudies .rrssContainer {
   margin: auto;
@@ -213,16 +216,16 @@ body .seccionStudies .rrssContainer {
 body .seccionStudies .rrssContainer .iconS {
   font-size: 5vh;
   margin: 10vh 10vh;
-  transition: all 2s;
+  transition: all 1s;
 }
 body .seccionStudies .rrssContainer .iconS:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 body .seccionStudies .rrssContainer .iconS a {
-  color: #d9c6e4;
+  color: #f8f8f8;
 }
 body .seccionStudies .rrssContainer .iconS a:hover {
-  color: #503268;
+  color: #a4ff6f;
 }
 body .seccionStudies .carouselContainer {
   margin: auto;
@@ -246,6 +249,14 @@ html, body {
   margin: 0;
 }
 
+@keyframes bounce1 {
+  0% {
+    transform: translateY(-40%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
 /*# sourceMappingURL=style.scss.map */
 /*# sourceMappingURL=style.scss.map */
 /*# sourceMappingURL=style.scss.map */
