@@ -1,6 +1,7 @@
 body {
   background-color: #1a1a1a;
   font-family: "Josefin Sans", serif;
+  /* mobile */
 }
 body #particles-js {
   height: 100vh;
@@ -59,10 +60,15 @@ body .menu-sticky h4 a:hover {
     line-height: 0;
   }
 }
+body .section-medio .pantalla {
+  min-height: 100vh;
+}
+body .section-medio main {
+  display: flex;
+  align-items: center;
+}
 body .section-medio .main-title {
   text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 10rem;
 }
 body .section-medio .main-title h2 {
   font-size: 8em;
@@ -73,7 +79,6 @@ body .section-medio .main-title h2 {
 @media only screen and (max-width: 1536px) {
   body .section-medio .main-title h2 {
     font-size: 6rem;
-    margin-bottom: 2rem;
   }
 }
 @media (max-width: 800px) {
@@ -102,13 +107,6 @@ body .section-medio .flecha-abajo {
   text-align: center;
   animation: bounce1 1s alternate infinite ease-in;
 }
-@media only screen and (max-width: 1536px) {
-  body .section-medio .flecha-abajo {
-    position: absolute;
-    bottom: 1%;
-    right: 48%;
-  }
-}
 body .section-medio .flecha-abajo .flecha {
   color: #f8f8f8;
   font-size: 4em;
@@ -124,7 +122,7 @@ body .section-about div .aboutTitle {
 }
 body .section-about div p {
   color: #f8f8f8;
-  line-height: 3.5rem;
+  line-height: 2rem;
   font-size: 1.5rem;
 }
 @media only screen and (max-width: 1536px) {
@@ -134,9 +132,6 @@ body .section-about div p {
 }
 body .section-about div .paragraph1 {
   text-align: start;
-}
-body .section-about div .paragraph3 {
-  text-align: end;
 }
 body .section-about .mi-foto-container .mi-foto {
   max-width: 500px;
@@ -184,9 +179,6 @@ body .section-services .servicesP b {
     line-height: 125px;
   }
 }
-body .seccionStudies {
-  margin-top: 260px;
-}
 body .seccionStudies .myStudiesTitle {
   color: #a4ff6f;
   font-size: 1.2rem;
@@ -200,14 +192,13 @@ body .seccionStudies .studiesSub {
   font-size: 17px;
 }
 body .seccionStudies .studies {
-  font-size: xxx-large;
+  font-size: xx-large;
   padding: 20px 0;
   cursor: pointer;
 }
 body .seccionStudies .miMail {
   font-size: 80px;
   font-weight: bolder;
-  margin-bottom: 10rem;
   color: #f8f8f8;
 }
 body .seccionStudies .rrssContainer {
@@ -215,7 +206,8 @@ body .seccionStudies .rrssContainer {
 }
 body .seccionStudies .rrssContainer .iconS {
   font-size: 5vh;
-  margin: 10vh 10vh;
+  margin-left: 30px;
+  margin-right: 30px;
   transition: all 1s;
 }
 body .seccionStudies .rrssContainer .iconS:hover {
@@ -230,6 +222,77 @@ body .seccionStudies .rrssContainer .iconS a:hover {
 body .seccionStudies .carouselContainer {
   margin: auto;
   max-width: 100vh;
+}
+body .seccionStudies .contactTitle {
+  color: #a4ff6f;
+  font-size: 1.2rem;
+  margin-bottom: 6rem;
+  font-family: "Secular One", sans-serif;
+}
+body .footerSign {
+  color: #a4ff6f;
+}
+body .navContainer {
+  position: sticky;
+  top: 0px;
+  background-color: #1a1a1a;
+  z-index: 99;
+}
+body .port-nav {
+  font-size: 20px;
+  color: #f8f8f8;
+}
+body .port-nav:hover {
+  color: #a4ff6f;
+}
+body .mobTitle1 {
+  color: #f8f8f8;
+  text-align: center;
+  font-weight: bold;
+  font-size: 65px;
+}
+body .mobTitle2 {
+  color: #f8f8f8;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+body .mobFlechaAbajo {
+  text-align: center;
+}
+body .mobFlechaAbajo .mobFlecha {
+  color: #f8f8f8;
+  font-size: 85px;
+}
+body .mobAbout {
+  color: #a4ff6f;
+}
+body .mobParrafos {
+  color: #f8f8f8;
+  font-size: 20px;
+}
+body .mobServices {
+  color: #f8f8f8;
+  font-size: 50px;
+}
+body .mobServices b {
+  color: #d5dbd2;
+}
+body .mobMail {
+  color: #f8f8f8;
+  font-size: 50px;
+}
+body .mobIcons {
+  color: #f8f8f8;
+}
+body .mobLinks {
+  color: #f8f8f8;
+  text-align: center;
+  font-size: xx-large;
+}
+body .mobLinks:hover {
+  color: #a4ff6f;
 }
 
 html, body {
@@ -251,10 +314,10 @@ html, body {
 
 @keyframes bounce1 {
   0% {
-    transform: translateY(-40%);
+    transform: translateY(20%);
   }
   100% {
-    transform: translateY(0%);
+    transform: translateY(100%);
   }
 }
 /*# sourceMappingURL=style.scss.map */
