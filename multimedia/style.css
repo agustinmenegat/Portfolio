@@ -1,7 +1,7 @@
 body {
   background-color: #1a1a1a;
   font-family: "Josefin Sans", serif;
-  /* mobile */
+  /* ----------------------------------------------------------- mobile ------------------------------------------------------------- */
 }
 body #particles-js {
   height: 100vh;
@@ -34,7 +34,6 @@ body .menu-sticky {
   text-align: center;
   position: sticky;
   top: 70%;
-  padding-right: 4%;
 }
 @media (max-width: 1536px) {
   body .menu-sticky {
@@ -171,7 +170,7 @@ body .section-services .servicesP {
   line-height: 110px;
 }
 body .section-services .servicesP b {
-  color: #d5dbd2;
+  color: #a4ff6f;
 }
 @media only screen and (max-width: 1536px) {
   body .section-services .servicesP {
@@ -183,8 +182,6 @@ body .seccionStudies .myStudiesTitle {
   color: #a4ff6f;
   font-size: 1.2rem;
   margin-bottom: 6rem;
-  /* font-family: 'Abril Fatface', cursive; */
-  /* font-family: 'Righteous', cursive; */
   font-family: "Secular One", sans-serif;
 }
 body .seccionStudies .studiesSub {
@@ -249,13 +246,13 @@ body .mobTitle1 {
   color: #f8f8f8;
   text-align: center;
   font-weight: bold;
-  font-size: 65px;
+  font-size: 55px;
 }
 body .mobTitle2 {
   color: #f8f8f8;
   text-align: center;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
 }
 body .mobFlechaAbajo {
@@ -274,14 +271,21 @@ body .mobParrafos {
 }
 body .mobServices {
   color: #f8f8f8;
-  font-size: 50px;
+  font-size: 40px;
 }
 body .mobServices b {
-  color: #d5dbd2;
+  color: #a4ff6f;
+}
+body .mobServices1 {
+  color: #f8f8f8;
+  font-size: 35px;
+}
+body .mobServices1 b {
+  color: #a4ff6f;
 }
 body .mobMail {
   color: #f8f8f8;
-  font-size: 50px;
+  font-size: 40px;
 }
 body .mobIcons {
   color: #f8f8f8;

@@ -37,7 +37,6 @@ body {
         text-align: center;
         position: sticky;
         top: 70%;
-        padding-right: 4%;
         @media (max-width: 1536px){
             top: 75%;
             margin-left: 100px;
@@ -166,7 +165,7 @@ body {
             font-size: 6rem;
             line-height: 110px;
             b{
-                color: $color3;
+                color: $colorTitulos;
             }
             @media only screen and (max-width:1536px) {
                 font-size: 5.9rem;
@@ -179,8 +178,6 @@ body {
             color: $colorTitulos;
             font-size: 1.2rem;
             margin-bottom: 6rem;
-            /* font-family: 'Abril Fatface', cursive; */
-            /* font-family: 'Righteous', cursive; */
             font-family: 'Secular One', sans-serif;
         }
         .studiesSub{
@@ -229,7 +226,9 @@ body {
     .footerSign{
         color: $colorTitulos;
     }
-    /* mobile */
+
+
+    /* ----------------------------------------------------------- mobile ------------------------------------------------------------- */
     .navContainer{
         position: sticky;
         top: 0px;
@@ -247,13 +246,13 @@ body {
         color: $color4;
         text-align: center;
         font-weight: bold;
-        font-size: 65px;
+        font-size: 55px;
     }
     .mobTitle2{
         color: $color4;
         text-align: center;
         font-weight: bold;
-        font-size: 60px;
+        font-size: 50px;
         text-transform: uppercase;
     }
     .mobFlechaAbajo{
@@ -272,14 +271,21 @@ body {
     }
     .mobServices{
         color: $color4;
-        font-size: 50px;
+        font-size: 40px;
         b{
-            color: $color3;
+            color: $colorTitulos;
+        }
+    }
+    .mobServices1{
+        color: $color4;
+        font-size: 35px;
+        b{
+            color: $colorTitulos;
         }
     }
     .mobMail{
         color: $color4;
-        font-size: 50px;
+        font-size: 40px;
     }
     .mobIcons{
         color: $color4;
