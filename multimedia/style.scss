@@ -59,8 +59,18 @@ body {
             }
             }
         }
-        
+        .menuDerecha{
+            outline: none;
+            text-decoration: none;
+            padding: 2px 1px 0;
+        }
+          
+        .menuDerecha:link {
+            color: #ff9dc6;
+        }         
+
     }
+    
 
     .section-medio {
         .pantalla{

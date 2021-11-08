@@ -59,6 +59,14 @@ body .menu-sticky h4 a:hover {
     line-height: 0;
   }
 }
+body .menu-sticky .menuDerecha {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+body .menu-sticky .menuDerecha:link {
+  color: #ff9dc6;
+}
 body .section-medio .pantalla {
   min-height: 100vh;
 }
