@@ -145,13 +145,12 @@ body .section-about .mi-foto-container .mi-foto {
   max-height: 500px;
   position: relative;
   left: 20%;
-  border-radius: 10px !important;
 }
 @media only screen and (max-width: 1366px) {
   body .section-about .mi-foto-container .mi-foto {
     max-width: 350px;
     max-height: 350px;
-    border-radius: 10px !important;
+
   }
 }
 body .section-services {
