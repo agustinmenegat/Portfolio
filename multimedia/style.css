@@ -65,7 +65,7 @@ body .menu-sticky .menuDerecha {
   padding: 2px 1px 0;
 }
 body .menu-sticky .menuDerecha:link {
-  color: #ff9dc6;
+  color: WHITE;
 }
 body .section-medio .pantalla {
   min-height: 100vh;
@@ -145,11 +145,13 @@ body .section-about .mi-foto-container .mi-foto {
   max-height: 500px;
   position: relative;
   left: 20%;
+  border-radius: 10px !important;
 }
 @media only screen and (max-width: 1366px) {
   body .section-about .mi-foto-container .mi-foto {
     max-width: 350px;
     max-height: 350px;
+    border-radius: 10px !important;
   }
 }
 body .section-services {
