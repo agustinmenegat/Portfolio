@@ -53,25 +53,25 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
   <style>
-    /* Agrega el CSS para las tarjetas aquí */
     .card {
-      max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+      max-height: 400px;
       margin-bottom: 20px;
       border: none;
     }
 
     .card img {
-      max-height: 200px; /* Ajusta la altura máxima de la imagen dentro de la tarjeta */
-      object-fit: cover; /* Ajusta el comportamiento de la imagen, cubriendo el espacio disponible */
+      max-height: 200px;
+      object-fit: cover;
     }
 </style>
+
   <!-- scroll -->
   <script src="js/smooth-scroll.min.js"></script>
   <script>
     smoothScroll.init({
       selector: '[data-scroll]', 
       selectorHeader: null, 
-      speed: 000, 
+      speed: 1000, 
       easing: 'easeInOutCubic', 
       offset: 0, 
       callback: function (anchor, toggle) {} 
@@ -90,8 +90,9 @@
           </div>
       </section>
 
+      <div id="loader" class="loader"></div>
       <!-- columna del centro -->
-      <section class="section-medio col-8">
+      <section id="content" class="section-medio col-8">
         <div>
           <main class="pantalla">
             <div class="container main-title">
@@ -413,6 +414,26 @@
     </footer>
   </div>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const loader = document.getElementById("loader");
+    const content = document.getElementById("content");
+    content.style.visibility = "hidden";
+    const minLoadTime = 2000;
+    const startTime = Date.now();
+    window.onload = function() {
+        const currentTime = Date.now();
+        const elapsedTime = currentTime - startTime;
+        const remainingTime = minLoadTime - elapsedTime;
+
+        setTimeout(() => {
+            loader.style.display = "none";
+            content.style.visibility = "visible";
+        }, Math.max(remainingTime, 0));
+    };
+});
+
+  </script>
 
   <!-- tech js -->
   <script src="js/technologies.js"></script>
