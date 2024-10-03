@@ -21,7 +21,7 @@ const technologies = [
     {
       id: 4,
       name: 'React JS',
-      imageSrc: './../multimedia/img/react.png',
+      imageSrc: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*x0d41ns8PTQZz4a3VbMrBg.png',
       description: 'Backend',
     },
     {
