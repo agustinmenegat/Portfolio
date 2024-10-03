@@ -21,7 +21,7 @@ const technologies = [
     {
       id: 4,
       name: 'React JS',
-      imageSrc: 'https://www.mobinius.com/wp-content/uploads/2020/02/reactjs-2.png',
+      imageSrc: './../multimedia/img/react.png',
       description: 'Backend',
     },
     {
