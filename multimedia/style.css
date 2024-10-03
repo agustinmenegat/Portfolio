@@ -334,7 +334,6 @@ html, body {
   }
 }
 
-/* HTML: <div class="loader"></div> */
 .loader {
   display: flex;
   position: absolute;
@@ -342,8 +341,6 @@ html, body {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  /* // background: #fff;
-  filter: blur(4px) contrast(12); */
 }
 .loader:before,
 .loader:after {
