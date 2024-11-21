@@ -66,8 +66,8 @@
 </style>
 
   <!-- scroll -->
-  <script src="js/smooth-scroll.min.js"></script>
-  <script>
+  <!-- <script src="js/smooth-scroll.min.js"></script> -->
+  <!-- <script>
     smoothScroll.init({
       selector: '[data-scroll]', 
       selectorHeader: null, 
@@ -76,7 +76,7 @@
       offset: 0, 
       callback: function (anchor, toggle) {} 
     });
-  </script>
+  </script> -->
 </head>
 
 <body class="bory">
@@ -99,8 +99,10 @@
               <h2>FULL STACK<br>DEVELOPER</h2>
               <h3>FROM: ARGENTINA</h3>
               <h3>TO: HOLE WORLD</h3>
-              <div class="flecha-abajo" data-scroll-to="about">
-                <div class="flecha"><i class="fas fa-arrow-circle-down"></i></div>
+              <div class="flecha-abajo">
+                <a data-scroll href="#about" class="flecha">
+                  <i class="fas fa-arrow-circle-down"></i>
+                </a>
               </div>
             </div>
           </main>
